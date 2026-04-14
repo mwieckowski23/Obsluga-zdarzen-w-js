@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 4</title>
+    <script>
+        function najechanie() {
+            console.log("Najechałeś kursorem na przycisk");
+            alert("Najechałeś kursorem na przycisk");
+        }
+
+        function opuszczenie() {
+            console.log("Kursor opuścił obszar przycisku");
+            alert("Kursor opuścił obszar przycisku");
+        }
+    </script>
+</head>
+<body>
+    <button onmouseover="najechanie()" onmouseout="opuszczenie()">Test</button>
+</body>
+</html>

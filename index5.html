@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 5</title>
+    <script>
+        let licznik = 0;
+
+        function policzKlikniecie() {
+            licznik++;
+            document.getElementById("wynik").innerHTML = "Przycisk został kliknięty: " + licznik + " raz(y)";
+        }
+    </script>
+</head>
+<body>
+    
+    <button onclick="policzKlikniecie()">Test</button>
+    
+    <p id="wynik">Przycisk nie był jeszcze kliknięty.</p>
+
+</body>
+</html>
